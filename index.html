@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="safe_school_ca.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      /* Osigurava da granice i unutrašnji razmaci budu uključeni u ukupnu dimenziju elementa */
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      /* Vertikalni raspored */
+      height: 100vh;
+      /* Visina viewporta */
+      margin: 0;
+      /* Uklanja podrazumevane margine */
+    }
+
+
+
+    .control-item {
+      margin: 5px;
+      padding: 5px;
+      width: 50px;
+      /* Širina kontrolnih elemenata */
+    }
+
+    #controls {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-top: 5px;
+    }
+
+    #controls>* {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+
+    #controls div {
+      margin-bottom: 5px;
+      /* Razmak između redova kontrola */
+    }
+
+    #controls span {
+      margin-right: 5px;
+      /* Razmak između labele i kontrolnog elementa */
+    }
+
+    #buttons-container {
+      display: flex;
+      /* Fleksibilni raspored za dugmad */
+      justify-content: center;
+      /* Centriranje dugmadi */
+      margin-top: 5px;
+      /* Razmak između dugmadi i ostalih kontrola */
+    }
+
+    #buttons-container button {
+      margin: 5px;
+      /* Razmak između dugmadi */
+      /* Dodatni stilovi po potrebi */
+    }
+
+    .label {
+      font-size: 12px;
+      /* Veličina fonta za labele */
+      /* Dodatni stilovi po potrebi */
+    }
+  </style>
+</head>
+
+<body>
+  <div id="sketch-holder"></div> <!-- Kontejner za canvas -->
+  <div id="controls"> <!-- Kontejner za kontrolne elemente -->
+    <!-- Ovde će p5.js dodati kontrolne elemente -->
+
+  </div>
+</body>
+
+</html>
